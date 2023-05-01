@@ -5,8 +5,11 @@ def process ():
 
     # open students.txt file (read)
     with open("students.txt") as input_file:
-        
+
         # assign variables for highest GWA and the student with highest grade
+        high_gwa = 2
+        high_student = ""
+        
         # read students.txt line by line
             # separate the names and their respective GWA
             # make the GWA a float
