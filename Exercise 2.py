@@ -15,8 +15,10 @@ def process ():
 
             # separate the names and their respective GWA
             names, gwa = line.strip().split(" = ")
-            
+
             # make the GWA a float
+            gwa = float(gwa)
+            
             # if the current gwa is higher than the highest gwa, update the variables
         # print
 # end of method
