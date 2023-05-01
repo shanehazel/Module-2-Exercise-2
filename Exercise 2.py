@@ -18,8 +18,12 @@ def process ():
 
             # make the GWA a float
             gwa = float(gwa)
-            
+
             # if the current gwa is higher than the highest gwa, update the variables
+            if gwa < high_gwa:
+                high_gwa = gwa
+                high_student = names
+
         # print
 # end of method
 process ()
