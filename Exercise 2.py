@@ -9,9 +9,13 @@ def process ():
         # assign variables for highest GWA and the student with highest grade
         high_gwa = 2
         high_student = ""
-        
+
         # read students.txt line by line
+        for line in input_file:
+
             # separate the names and their respective GWA
+            names, gwa = line.strip().split(" = ")
+            
             # make the GWA a float
             # if the current gwa is higher than the highest gwa, update the variables
         # print
