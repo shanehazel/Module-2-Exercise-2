@@ -24,8 +24,8 @@ def process ():
                 high_gwa = gwa
                 high_student = names
 
-        # print
+        # print output
         print(high_student, "got the highest GWA of", high_gwa)
-        
+
 # end of method
 process ()
